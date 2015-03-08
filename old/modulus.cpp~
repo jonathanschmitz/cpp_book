@@ -1,0 +1,15 @@
+// modulus.cpp -- using the modulus operator
+#include <iostream>
+int main()
+{
+  using namespace std;
+  int weight,stones, pounds;
+  const int Lbs_per_stone = 14;
+  
+  cout << "Please enter your weight in pounds.\n";
+  cin >> weight;
+  stone = weight / Lbs_per_stone;
+  pounds = weight % Lbs_per_stone;
+  cout << "Your weight is " << stone << "stone and " << pounds << "pounds.\n";
+  return 0;
+}

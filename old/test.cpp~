@@ -1,0 +1,9 @@
+// bondini.cpp -- using escape sequences
+#include <iostream>
+int main()
+{
+  using namespace std;
+  char32_t c = U"BLA";
+  cout << c
+  return 0;
+}

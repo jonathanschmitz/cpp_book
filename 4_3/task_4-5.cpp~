@@ -1,0 +1,27 @@
+#include <algorithm>
+#include <iomanip>
+#include <ios>
+#include <iostream>
+#include <stdexcept>
+#include <string>
+#include <vector>
+#include "grade.h"
+#include "Student_info.h"
+
+using std::cin; using std::cout; using std::endl;
+using std::sort;using std::string; using std::vector;
+
+istream& readin(istream& is, vector& words)
+{
+  string word;
+  cin >> word;
+  words.push_back(word);
+  return is;
+}
+
+
+int main()
+{
+  
+}
+
